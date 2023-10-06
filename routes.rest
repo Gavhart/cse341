@@ -8,6 +8,16 @@ GET http://localhost:8080/contacts/65162d9fb6b4cb34b80d8f6d
 ###
 GET http://localhost:8080/contacts/65162d9fb6b4cb34b80d8f6e
 
+###
+POST http://localhost:8080/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "hoot@gmail.com"
+}
+
 // PRODUCTION Deploy
 ###
 GET https://cse341-contacts-7a81.onrender.com/contacts

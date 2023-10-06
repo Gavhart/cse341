@@ -22,4 +22,11 @@ const getSingle = async (req, res, next) => {
   });
 };
 
-module.exports = { getAll, getSingle };
+const createContact = async (req, res) => {
+  const contact = req.body;
+  console.log(contact);}
+
+
+
+
+module.exports = { getAll, getSingle, createContact };
